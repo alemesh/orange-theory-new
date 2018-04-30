@@ -1,0 +1,270 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1370px)
+  .visual-content
+    direction: rtl
+    width: 50% //На мобиле сделать 100%
+    padding: 20px 15px
+    .title-header
+      font-size: 43px
+      span
+        font-size: 38px
+    .description-header
+      font-size: 18px
+    .description-header-span
+      font-size: 35px
+
+
+  .header-section
+    //min-height: 600px
+    min-height: 500px
+    background-size: cover
+    //&:after
+    //  content: ''
+    //  position: absolute
+    //  top: 0
+    //  left: 0
+    //  width: 100%
+    //  bottom: 80%
+      //background: linear-gradient(to bottom,  rgba(255,0,0,5)  27%, rgba(0,0,0,0)  50%)
+
+  .main
+    background: white !important
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .visual-content
+    .title-header
+      font-size: 36px
+    .description-header
+      font-size: 15px
+
+  //.wrap-header
+  //  min-height: 860px
+  //.header-section
+  //  background-position: 10% 50%
+  //  //min-height: 495px
+  //  min-height: 778px
+  //  background-size: 196%
+  //  &:before
+  //    content: ''
+  //    //background: #ff3000
+  //    position: absolute
+  //    top: 0
+  //    left: 0
+  //    width: 100%
+  //    height: 100%
+  //    //opacity: 0.2
+  //    //padding-top: 177px
+  //    //position: static
+  //    background: linear-gradient(to bottom,  rgba(255,0,0,5)  27%, rgba(0,0,0,0)  50%)
+  //
+  //
+  .form-hold
+    padding: 15px 0
+    h3
+      margin: 0 0 15px
+    .form-row
+      width: 100%
+      margin-bottom: 15px
+      .maska-input
+        transform: skewX(0deg)
+      .btn-maska
+        transform: skewX(-20deg)
+
+    .form-grow-4
+      order: 2
+      margin: 0 18px
+
+
+    .form-control
+      height: 50px
+      font-size: 18px
+      transform: skewX(0deg)
+
+    .btn
+      height: 50px
+      transform: skewX(20deg)
+
+    .checkbox-margin
+      margin: 0 13px 15px
+      .checbox-form
+        font-size: 16px
+
+  .items-list
+    margin: 0 -10px
+    li
+      width: 50%
+
+  .main-list
+    font-size: 20px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  //.header-section
+  //  min-height: 492px
+  //  background-size: cover
+  //  background-image: url(../img/Background-mobyle1.jpg) !important
+  //  background-repeat: no-repeat
+
+  .logo
+    width: 220px
+    margin: 0 auto 30px
+
+  .visual-content
+    direction: rtl
+    width: 100% //На мобиле сделать 100%
+    padding: 20px 15px
+    text-align: center
+    .title-header
+      margin: 1px 0 30px
+      span
+        font-size: 30px
+      //font-size: 27px
+    .description-header
+      margin: 0
+    .description-header-span
+      font-size: 28px
+
+
+
+  .items-list
+    margin: 0 -10px
+    li
+      width: 50%
+      padding: 0 20px
+
+  .image-item
+    width: 100px
+    height: 100px
+    margin-bottom: 0
+
+  .text-items
+    font-family: "OpenSansHebrew-Regular"
+    p
+      margin-top: 5px
+
+  .main-list-title
+    font-size: 25px
+  .main-list
+    font-size: 17px
+
+
+  .visual-content-tnx
+    .description-header
+      font-size: 50px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  .header-section
+    min-height: 492px
+    background-size: cover
+    //background-image: url(../img/Background-mobyle1.jpg) !important
+    background-image: url(../img/background-mobile2.jpg) !important
+    background-repeat: no-repeat
+
+  .thank-page
+    .header-section
+      background-image: url("../img/thanks-page-background.png") !important
+
+
+  .label
+    font-size: 10px
+    padding-top: 71px
+    bottom: 13%
+    &:after
+      top: 77%
+      left: 4px
+      width: 6px
+      height: 6px
+
+  .main
+    .wrap-title
+      margin: 40px 0px 50px
+    h3
+      font-size: 20px
+      margin: 40px 1px 30px
+  .main-list
+    font-size: 15px
+    margin: 0 15px
+    .wrap-list
+      font-size: 19px
+    li
+      padding: 0 0 9px
+
+  .desctop
+    display: none
+  .mobile
+    display: block
+
+  .visual-content
+    padding: 20px 0
+    .title-header
+      text-shadow: none
+      margin: 1px 0 12px
+      font-size: 30px
+      span
+        font-size: 24px
+    .description-header
+      text-shadow: none
+      margin: 0
+      font-size: 15px
+    .description-header-span
+      font-size: 28px
+
+
+
+
+    .logo
+      margin: 0 auto 15px
+  .footer
+    .wrap-title-footer
+      margin: 26px 0
+      font-size: 16px
+
+  .text-items
+    font-size: 12px
+
+  .form-hold
+    h3
+      font-size: 23px
+    .checkbox-margin
+      .checbox-form
+        font-size: 15px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
